@@ -10,7 +10,7 @@ spring:
       discovery:
         locator:
           enabled: true
-          lower-case-service-id: true
+          lower-case-service-id: false
       routes:
         - id: micro-service-1
           uri: lb://micro-service-1    # lb:// - будет искать сервис через Эврику
